@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Mystic Match
+Welcome to the React memory game with a turn count! This is a classic memory-testing game built using React, where players are challenged to match pairs of cards in the fewest turns possible. The game keeps track of the number of turns taken to complete the game, adding an extra layer of challenge.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Rules
+* Click on a card to reveal its hidden symbol.
+* Click on another card to find its matching symbol.
+* If the symbols match, the cards stay face up.
+* If the symbols don't match, both cards will be flipped face down again.
+* The goal is to match all pairs of cards with the fewest possible moves.
 
-## Available Scripts
+## Features
+* Responsive design, suitable for various screen sizes.
+* Randomized card positions for a new challenge each time.
+* Moves counter to keep track of the number of card flips.
 
-In the project directory, you can run:
+## Technologies used
+* React: A JavaScript library for building user interfaces.
+* CSS: Styling the components and layout.
+* React-Router: Handling navigation and routing within the app.
+* State Management: Utilizing React Hooks for managing game state.
+
+
+
 
 ### `npm start`
 
@@ -24,47 +40,3 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
