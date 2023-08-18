@@ -2,6 +2,7 @@
 Welcome to the React memory game with a turn count! This is a classic memory-testing game built using React, where players are challenged to match pairs of cards in the fewest turns possible. The game keeps track of the number of turns taken to complete the game, adding an extra layer of challenge.
 ![screencapture-mysticmatch-pages-dev-2023-08-17-19_13_03](https://github.com/alexamankwah2/mystic-match/assets/128336742/e09cc136-1a57-4d8e-9094-7f23c5a9e847)
 
+[Demo](https://mysticmatch.pages.dev/)
 
 ## Rules
 * Click on a card to reveal its hidden symbol.
